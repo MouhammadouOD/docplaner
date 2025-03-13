@@ -1,0 +1,279 @@
+
+body {
+  font-family: 'Work Sans',Arial, sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+  margin-inline: auto;
+}
+header ul li{
+  display: inline;
+  margin: 0 5px;
+}
+header ul li a{
+  text-decoration: none;
+  color: #787D98;
+}
+header ul li a:hover{
+  color: #00B39B;
+}
+
+#logo-parag{
+  max-width: 1050px;
+  text-align: center;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.text-header{
+  font-size: 30px;
+  color: #00B39B;
+  letter-spacing: 2px;
+}
+
+.parag{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  max-width: 1050px;
+  margin-inline: auto;
+  color: #747474;
+}
+
+.parag p{
+  max-width: 500px;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  max-width: 1050px;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.card {
+  width: 270px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 25px;
+}
+
+.card h3 {
+  font-weight: 300;
+}
+
+.card > p {
+  margin-bottom: 50px;
+}
+
+.bg-green-color {
+  background-color: #00B39B;
+}
+
+.text-white-color{
+  color: white;
+}
+
+.bg-blue-color {
+  background-color: #508FE2;
+}
+
+.bg-black-blue-color {
+  background-color: #313C48;
+}
+
+.slogan-links{
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.slogan-links a{
+  text-decoration: none;
+  color: #787D98;
+}
+
+.slogan-links a:hover{
+  color: #00B39B;
+}
+
+.slogan-links img{
+  width: 100px;
+}
+
+.links ul{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  gap: 4em;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.links ul li{
+ display: inline;
+font-size: 10px;
+}
+
+.slogan {
+  font-size: 25px;
+  text-align: left;
+  color: #00B39B;
+  min-width: 200px;
+}
+
+.stats{
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+  padding: 1.875em 1em .625em 1em;
+  color: #747474;
+}
+
+.inner-stats {
+  max-width: 1050px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-stats-left {
+  max-width: 40%;
+}
+
+.inner-stats-right {
+  width: 47%;
+  margin-inline: auto;
+  flex-grow: inherit
+}
+
+.stats_item {
+  width: 210px;
+  font-size: smaller;
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  height : 230px
+}
+
+.stats_items_top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.stats_item .title{
+  font-size: 25px;
+  color: #00B39B;
+}
+
+.first-item{
+  margin-top: 2em;
+}
+
+.last-item{
+  margin-bottom: 2em;
+}
+
+.gallery{
+  max-width: 1050px;
+  margin-inline: auto;
+
+}
+
+.gallery-title{
+  font-size: 25px;
+  text-align: center;
+  color: #00B39B;
+}
+
+.gallery-text{
+  font-size: 15px;
+  text-align: center;
+  color: #747474;
+}
+
+.gallery-text-block{
+  margin: 80px 80px;
+  text-align: center;
+
+}
+
+.offices_slider{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 10px;
+  row-gap: 20px;
+  width: 1050px;
+}
+
+.office{
+  width: 300px;
+  height: 380px;
+}
+.office a{
+  text-decoration: none;
+}
+.office_desc {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #747474;
+  border:  solid 1px #b9b8b8;
+}
+
+.office_desc span{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.office_desc button{
+  background-color: #1662C6;
+  color: white;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.contact{
+  max-width: 1050px;
+  margin-inline: auto;
+  margin: 90px 90px;
+  text-align: center;
+}
+
+.contact p{
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.contact button{
+  background-color: #1662C6;
+  color: white;
+  border: none;
+  padding: 10px 17px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer{
+  text-align: center;
+  font-size: smaller;
+  padding: 16px 12px;
+}
